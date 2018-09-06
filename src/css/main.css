@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#social_media {
+  position: fixed;
+  left: 0;
+  top: 20vh; }
+  #social_media a {
+    font-size: 2.5rem;
+    display: block;
+    width: 70px;
+    padding: 15px 0;
+    text-align: center;
+    color: #aaa;
+    -webkit-transition: .5s ease;
+    transition: .5s ease; }
+    #social_media a:hover {
+      width: 90px;
+      color: #fff;
+      border-radius: 0 10px 10px 0;
+      -webkit-box-shadow: 0 0 8px #333;
+              box-shadow: 0 0 8px #333; }
+      #social_media a:hover i {
+        text-shadow: 0 3px 10px #333; }
+  #social_media a:nth-child(1) {
+    background-image: radial-gradient(#486DB3, #102a5d);
+    border-radius: 0 10px 0 0; }
+    #social_media a:nth-child(1):hover {
+      width: 90px;
+      color: #fff;
+      border-radius: 0 10px 10px 0; }
+  #social_media a:nth-child(2) {
+    background-image: radial-gradient(#e84cd8, #8a1c7e); }
+  #social_media a:nth-child(3) {
+    background-image: radial-gradient(#0F7CB6, #093e5b); }
+  #social_media a:nth-child(4) {
+    background-image: radial-gradient(#BE0C25, #670714); }
+  #social_media a:nth-child(5) {
+    background-image: radial-gradient(#0F7CB6, #094362);
+    border-radius: 0 0 10px 0; }
+    #social_media a:nth-child(5):hover {
+      width: 90px;
+      color: #fff;
+      border-radius: 0 10px 10px 0;
+      text-shadow: 0 3px 10px #000; }
